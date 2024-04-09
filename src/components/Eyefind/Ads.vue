@@ -38,7 +38,7 @@
     #ads a {
         color: white;
     }
-    #ads img {
-        width: auto;
+    #ads a div {
+        margin-top: 5px;
     }
 </style>

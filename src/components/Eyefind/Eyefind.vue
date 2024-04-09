@@ -14,7 +14,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-9">
-                        <a href="#">
+                        <a href="/">
                             <img id="logoImg" src="/src/assets/images/websites/Eyefind.png" alt="Eyefind Logo" class="d-inline-block align-text-top">
                         </a>
                     </div>
@@ -25,7 +25,7 @@
                 <div class="row mt-3">
                     <div class="col-9">
                         <form class="input-group d-flex" role="search">
-                            <i class="input-group-text bi bi-search" id="addon-wrapping"></i>
+                            <i class="input-group-text bi bi-search" id="addon-wrapping" style="color: var(--bg-blue);"></i>
                             <input class="form-control me-2" type="search" placeholder="Search Eyefind" aria-label="Search Eyefind">
                         </form>
                     </div>

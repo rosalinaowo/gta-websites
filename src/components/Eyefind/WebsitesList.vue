@@ -35,12 +35,25 @@
 
 <template>
     <div id="websitesList" class="container">
-        <div class="row d-flex justify-content-between align-items-center text-center" v-for="row in rows" :key="row">
-            <div class="col d-block" v-for="col in cols" :key="col">
+        <div class="row d-flex justify-content-center text-center" v-for="row in rows" :key="row">
+            <div class="col d-block mb-2" v-for="col in cols" :key="col" style="background-color: aquamarine;">
                 <a :href="websites[row * (col - 1)].url">
-                    <img :src="websites[row * (col - 1)].imgPath" class="img-fluid" :alt="websites[row * (col - 1)].name" style="background-color: aquamarine;">
+                    <img :src="websites[row * (col - 1)].imgPath" class="img-fluid" :alt="websites[row * (col - 1)].name">
                 </a>
             </div>
         </div>
     </div>
 </template>
+
+<style scoped>
+    #websitesList .row .col {
+        border: 3px solid transparent;
+        margin-right: 10px;
+    }
+    #websitesList .row .col:last-child {
+        margin-right: 0px;
+    }
+    #websitesList .row .col:hover {
+        border: 3px solid var(--bg-blue);
+    }
+</style>
