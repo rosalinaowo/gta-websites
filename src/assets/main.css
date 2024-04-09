@@ -1,0 +1,26 @@
+:root {
+  --bg-blue: #488BC2;
+  --btn-blue: #047290;
+  --services-bg: #F0F0F0;
+}
+
+* {
+  font-family: sans-serif;
+  /* cursor: url("/src/assets/cursors/Normal.cur"), auto; */
+}
+
+/* a, button:hover {
+  cursor: url("/src/assets/cursors/Link.cur"), pointer;
+}
+
+input:hover {
+  cursor: url("/src/assets/cursors/Text.cur"), text;
+} */
+
+.vl {
+  border-left: 4px solid white;
+}
+
+.hl {
+  border-bottom: 4px solid white;
+}
