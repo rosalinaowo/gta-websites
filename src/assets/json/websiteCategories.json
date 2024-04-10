@@ -1,0 +1,417 @@
+[
+  {
+    "name": "media-and-entertainment",
+    "websites": [
+      {
+        "id": 1,
+        "name": "Life Invader",
+        "description": "The reason the world never gets anything done any more."
+      },
+      {
+        "id": 2,
+        "name": "Classic Vinewood",
+        "description": "Sequels, remakes, romantic comedy sequels, superheroes, CGI nonsense and one-dimensional androgynous vampires."
+      },
+      {
+        "id": 3,
+        "name": "Fame or Shame",
+        "description": "The talent show America deserves."
+      },
+      {
+        "id": 4,
+        "name": "Kung Fu Rainbow Lazer Force",
+        "description": "Hey Kung Fu Rainbow Lazer Force Fans! On our official website you can learn more about the show, the characters, and how you can spread the word!"
+      },
+      {
+        "id": 5,
+        "name": "Princess Robot Bubblegum",
+        "description": "The #3 hit show in Japan is back!"
+      },
+      {
+        "id": 6,
+        "name": "Republican Space Rangers",
+        "description": "Finally America has some heroes who know there are bigger issues that fretting about baby seals or endangered lizards or so called global warming."
+      },
+      {
+        "id": 7,
+        "name": "Righteous Slaughter 7",
+        "description": "Misfire Games presents Righteous Slaughter 7: The Art of Contemporary Killing."
+      }
+    ]
+  },
+  {
+    "name": "food-and-drink",
+    "websites": [
+      {
+        "id": 1,
+        "name": "Los Santos Freegans",
+        "description": "Americans throw out 500 billion tons of edible food each day. We plan on eating it!"
+      },
+      {
+        "id": 2,
+        "name": "EgoChaser Energy Bar",
+        "description": "Backed by literally weeks of top level research into sports nutrition, the EgoChaser is more than just a candy bar with some protein powder thrown in. It's perfectly evolved, just like you."
+      },
+      {
+        "id": 3,
+        "name": "Grain of Truth",
+        "description": "Your grocery store defines what kind of person you are. Join the organic elite at The Grain of Truth and shop with superiority. Food has never been this self-satisfying."
+      }
+    ]
+  },
+  {
+    "name": "money-and-services",
+    "websites": [
+      {
+        "id": 1,
+        "name": "The Diamond Casino & Resort",
+        "description": "The Diamond Casino & Resort: Vinewood's Crown Jewel"
+      },
+      {
+        "id": 2,
+        "name": "Maze Bank Foreclosure",
+        "description": "The Number 1 site for foreclosed properties."
+      },
+      {
+        "id": 3,
+        "name": "Dynasty 8 Executive Realty",
+        "description": "Specialists in luxury office spaces across Los Santos."
+      },
+      {
+        "id": 4,
+        "name": "Bawsaq",
+        "description": "Dealing in life's ups and downs."
+      },
+      {
+        "id": 5,
+        "name": "Dynasty 8 Real Estate",
+        "description": "The leading realtor in Los Santos and Blaine County."
+      },
+      {
+        "id": 6,
+        "name": "Maze Bank",
+        "description": "Invest in the red. It's in your interest."
+      }
+    ]
+  },
+  {
+    "name": "travel-and-transport",
+    "websites": [
+      {
+        "id": 1,
+        "name": "Arena War",
+        "description": "Purchase and modify your own workshop and vehicles to ensure you smash the competition in Arena Wars."
+      },
+      {
+        "id": 2,
+        "name": "Benny's Original Motor Works",
+        "description": "Visit Benny's at www.bennysoriginalmotorworks.com for the shabby old stock vehicle of your dreams - then come back to get it pimped out when you realize you don't have the time or talent to fit high-end mods yourself."
+      },
+      {
+        "id": 3,
+        "name": "Elitas Travel",
+        "description": "Browse our current inventory of new and pre-owned aircraft. Helicopters or planes, we have everything."
+      },
+      {
+        "id": 4,
+        "name": "Legendary Motorsport",
+        "description": "We sell exotic, ostentatious, high-performance vehicles to exotic, ostentatious, high-performance people."
+      },
+      {
+        "id": 5,
+        "name": "Warstock Cache & Carry",
+        "description": "Our user-friendly online store combined with our 'deliver-anywhere' service has made us the number one armored vehicle dealer in the Los Santos area."
+      },
+      {
+        "id": 6,
+        "name": "Dock Tease",
+        "description": "Buy a boat today!"
+      },
+      {
+        "id": 7,
+        "name": "Pedal and Metal",
+        "description": "The premium store for cycling in San Andreas."
+      },
+      {
+        "id": 8,
+        "name": "Southern San Andreas Super Autos",
+        "description": "Sammy Keller and the entire staff at Southern San Andreas Super Autos are here to meet your vehicular needs."
+      }
+    ]
+  },
+  {
+    "name": "fashion-and-health",
+    "websites": [
+      {
+        "id": 1,
+        "name": "Swallow",
+        "description": "A look that says... You are forever 16."
+      },
+      {
+        "id": 2,
+        "name": "Universal Uniform",
+        "description": "We are a clothing company that is uniquely American - we sexily advertise bland t-shirts by putting them on half dizzy sluts still woozy from a night of pounding."
+      },
+      {
+        "id": 3,
+        "name": "Toe Shoes",
+        "description": "Toe Shoes. Moder on the outside, prehistoric on the inside. Don't judge a foot by its cover."
+      },
+      {
+        "id": 4,
+        "name": "Preservex Skin Cream",
+        "description": "The timeless beauty of formaldehyde."
+      },
+      {
+        "id": 5,
+        "name": "Abstinent America",
+        "description": "Image how fast paced and exciting a baseball game would be without beer. Image how lovely a 6 hour wedding would be without wine. Image the delights of Mexican food without Margaritas."
+      },
+      {
+        "id": 6,
+        "name": "Fabien Larouche Yoga",
+        "description": "Yoga unifies the mind and body while freeing your from the limitations of dignity and self-respect. It's a workout, a philosophy and a metaphor all rolled into one. It is everything. It is nothing. Be. Be nothing."
+      }
+    ]
+  },
+  {
+    "name": "other",
+    "websites": [
+      {
+        "id": 1,
+        "name": "Credit Card Consolidation Kings",
+        "description": "Credit card companies are crooks! They expect to be paid back for money you spent because you didnt't have money in the first place!"
+      },
+      {
+        "id": 2,
+        "name": "San Andreas Department of Motor Vehicles",
+        "description": ""
+      },
+      {
+        "id": 3,
+        "name": "Sue Murry",
+        "description": ""
+      },
+      {
+        "id": 4,
+        "name": "Jock Cranley",
+        "description": ""
+      },
+      {
+        "id": 5,
+        "name": "Cash for Dead Dreams",
+        "description": ""
+      },
+      {
+        "id": 6,
+        "name": "Psychic Shoutout",
+        "description": ""
+      },
+      {
+        "id": 7,
+        "name": "Accept the Chaos",
+        "description": ""
+      },
+      {
+        "id": 8,
+        "name": "Six Figure Temps",
+        "description": ""
+      },
+      {
+        "id": 9,
+        "name": "Prop 208",
+        "description": ""
+      },
+      {
+        "id": 10,
+        "name": "My Divine Within",
+        "description": ""
+      },
+      {
+        "id": 11,
+        "name": "The Children of the Mountain",
+        "description": ""
+      },
+      {
+        "id": 12,
+        "name": "Lenny Avery Realty",
+        "description": ""
+      },
+      {
+        "id": 13,
+        "name": "Vinewood Logline Generator",
+        "description": ""
+      },
+      {
+        "id": 14,
+        "name": "Pow Cleanse",
+        "description": ""
+      },
+      {
+        "id": 15,
+        "name": "Dr. Friedlander",
+        "description": ""
+      },
+      {
+        "id": 16,
+        "name": "Prop 43",
+        "description": ""
+      },
+      {
+        "id": 17,
+        "name": "Who Killed Leonora Johnson",
+        "description": ""
+      },
+      {
+        "id": 18,
+        "name": "My Room Online",
+        "description": ""
+      },
+      {
+        "id": 19,
+        "name": "Beseecher",
+        "description": ""
+      },
+      {
+        "id": 20,
+        "name": "Electrotoke",
+        "description": ""
+      },
+      {
+        "id": 21,
+        "name": "Himplants Enhancement Surgery",
+        "description": ""
+      },
+      {
+        "id": 22,
+        "name": "Los Santos Customs",
+        "description": ""
+      },
+      {
+        "id": 23,
+        "name": "Minotaur Finance",
+        "description": ""
+      },
+      {
+        "id": 24,
+        "name": "Los Santos Department of Water & Power",
+        "description": ""
+      },
+      {
+        "id": 25,
+        "name": "Stop Paying Your Mortgage",
+        "description": ""
+      },
+      {
+        "id": 26,
+        "name": "Vanilla Unicorn",
+        "description": ""
+      },
+      {
+        "id": 27,
+        "name": "Visit The Alamo Sea",
+        "description": ""
+      },
+      {
+        "id": 28,
+        "name": "Cult Stoppers",
+        "description": ""
+      },
+      {
+        "id": 29,
+        "name": "Jack Howitzer",
+        "description": ""
+      },
+      {
+        "id": 30,
+        "name": "Hammerstein & Faust Employment Law",
+        "description": ""
+      },
+      {
+        "id": 31,
+        "name": "Merryweather Security",
+        "description": ""
+      },
+      {
+        "id": 32,
+        "name": "Your New Baby's Name",
+        "description": ""
+      },
+      {
+        "id": 33,
+        "name": "Junk Energy Drink",
+        "description": ""
+      },
+      {
+        "id": 34,
+        "name": "The Internet is a Hellhole",
+        "description": ""
+      },
+      {
+        "id": 35,
+        "name": "Fruit Computers",
+        "description": ""
+      },
+      {
+        "id": 36,
+        "name": "Minister in Minutes",
+        "description": ""
+      },
+      {
+        "id": 37,
+        "name": "Chains of Intimacy",
+        "description": ""
+      },
+      {
+        "id": 38,
+        "name": "Appropriate Associate",
+        "description": ""
+      },
+      {
+        "id": 39,
+        "name": "Taco Bomb",
+        "description": ""
+      },
+      {
+        "id": 40,
+        "name": "Manopause Adventures",
+        "description": ""
+      },
+      {
+        "id": 41,
+        "name": "Monetary Science",
+        "description": ""
+      },
+      {
+        "id": 42,
+        "name": "The Altruists",
+        "description": ""
+      },
+      {
+        "id": 43,
+        "name": "Your Dead Family",
+        "description": ""
+      },
+      {
+        "id": 44,
+        "name": "Be Devin Weston",
+        "description": ""
+      },
+      {
+        "id": 45,
+        "name": "Bullshark Testosterone",
+        "description": ""
+      },
+      {
+        "id": 46,
+        "name": "Toilet Cleaner",
+        "description": ""
+      },
+      {
+        "id": 47,
+        "name": "Ammunation",
+        "description": ""
+      }
+    ]
+  }
+]

@@ -1,24 +1,59 @@
 <script>
+    import * as categories from '@/utils/scripts/categories.js'
+    import Weather from './Weather.vue'
+    export default {
+        components: { Weather },
+        methods: {
+            async randomRedirect() {
+                this.$router.push({ name: (await categories.getRandomWebsite()).name });
+            }
+        }
+    }
 </script>
 
 <template>
-    <div style="background-color: var(--services-bg);">
+    <div id="heading">
+        <div class="container">
+            <div class="row">
+                <div class="col-9">
+                    <router-link to="/">
+                        <img id="logoImg" src="/src/assets/images/websites/Eyefind.png" alt="Eyefind Logo" class="d-inline-block align-text-top">
+                    </router-link>
+                </div>
+                <div class="col" style="margin: auto;">
+                    <Weather />
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-9">
+                    <form class="input-group d-flex" role="search">
+                        <i class="input-group-text bi bi-search" id="addon-wrapping" style="color: var(--bg-blue);"></i>
+                        <input class="form-control me-2" type="search" placeholder="Search Eyefind" aria-label="Search Eyefind">
+                    </form>
+                </div>
+                <div class="col">
+                    <button id="randomBtn" class="btn" @click="randomRedirect()">RANDOM</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="categories" style="background-color: var(--services-bg);">
         <div id="services" class="container text-center">
             <div class="row">
                 <div class="col-12 col-lg">
-                    <a href="#" class="d-flex align-items-center"><i class="bi bi-phone service-icon"></i>MEDIA AND ENTERTAINMENT</a>
+                    <router-link :to="{ name: 'Media and Entertainment' }" class="d-flex align-items-center"><i class="bi bi-phone service-icon"></i>MEDIA AND ENTERTAINMENT</router-link>
                 </div>
                 <div class="col-12 col-lg b-y">
-                    <a href="#" class="d-flex align-items-center"><i class="bi bi-cup-straw service-icon"></i>FOOD AND DRINK</a>
+                    <router-link :to="{ name: 'Food and Drink' }" class="d-flex align-items-center"><i class="bi bi-cup-straw service-icon"></i>FOOD AND DRINK</router-link>
                 </div>
                 <div class="col-12 col-lg b-y">
-                    <a href="#" class="d-flex align-items-center"><i class="bi bi-coin service-icon"></i>MONEY AND SERVICES</a>
+                    <router-link :to="{ name: 'Money and Services' }" class="d-flex align-items-center"><i class="bi bi-coin service-icon"></i>MONEY AND SERVICES</router-link>
                 </div>
                 <div class="col-12 col-lg b-y">
-                    <a href="#" class="d-flex align-items-center"><i class="bi bi-airplane service-icon" style="transform: rotate(45deg);"></i>TRAVEL AND TRANSPORT</a>
+                    <router-link :to="{ name: 'Travel and Transport' }" class="d-flex align-items-center"><i class="bi bi-airplane service-icon" style="transform: rotate(45deg);"></i>TRAVEL AND TRANSPORT</router-link>
                 </div>
                 <div class="col-12 col-lg">
-                    <a href="#" class="d-flex align-items-center"><i class="bi bi-bag service-icon"></i>FASHION AND HEALTH</a>
+                    <router-link :to="{ name: 'Fashion and Health' }" class="d-flex align-items-center"><i class="bi bi-bag service-icon"></i>FASHION AND HEALTH</router-link>
                 </div>
             </div>
         </div>
@@ -26,7 +61,24 @@
 </template>
 
 <style scoped>
-    i.bi {
+    #heading {
+        background-color: var(--bg-blue);
+        border-bottom: 10px solid orange;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+
+    #randomBtn {
+        width: 100%;
+        color: white;
+        background-color: var(--btn-blue);
+    }
+
+    #addon-wrapping {
+        font-size: large;
+    }
+
+    #categories i.bi {
         color: var(--bg-blue);
         font-size: 2em;
     }

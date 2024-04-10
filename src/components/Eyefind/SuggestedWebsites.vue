@@ -18,7 +18,7 @@
             getRandomWebsite() {
                 return {
                     name: 'Maze Bank Foreclosures',
-                    imgPath: '/src/assets/images/websites/MazeBankForeclosures.png',
+                    imgPath: '/src/assets/images/websites/MazeBankForeclosure.png',
                     url: '#'
                 }
             },

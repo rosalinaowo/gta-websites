@@ -1,26 +1,27 @@
 <script>
+    import * as categories from '@/utils/scripts/categories.js'
 </script>
 
 <template>
     <div id="ads" class="container">
         <div class="row d-flex justify-content-between align-items-center text-center">
             <div class="col d-block">
-                <a href="#">
+                <router-link :to="{ name: 'Legendary Motorsport' }">
                     <div>SPONSORED ADVERTISEMENT</div>
                     <img src="/src/assets/images/websites/LegendaryMotorsport.png" class="img-fluid" alt="Advertisement">
-                </a>
+                </router-link>
             </div>
             <div class="col d-block">
-                <a href="#">
+                <router-link :to="{ name: 'Maze Bank' }">
                     <div>SPONSORED ADVERTISEMENT</div>
                     <img src="/src/assets/images/websites/LegendaryMotorsport.png" class="img-fluid" alt="Advertisement">
-                </a>
+                </router-link>
             </div>
             <div class="col d-block">
-                <a href="#">
+                <router-link :to="{ name: 'The Diamond Casino & Resort' }">
                     <div>SPONSORED ADVERTISEMENT</div>
                     <img src="/src/assets/images/websites/LegendaryMotorsport.png" class="img-fluid" alt="Advertisement">
-                </a>
+                </router-link>
             </div>
         </div>
     </div>

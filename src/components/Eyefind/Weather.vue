@@ -2,7 +2,8 @@
     export default {
         data() {
             return {
-                days: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
+                days: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+                intervalId: null
             }
         },
         methods: {
@@ -12,7 +13,10 @@
         },
         mounted() {
             this.updateDay();
-            setInterval(this.updateDay, 500);
+            this.intervalId = setInterval(this.updateDay, 500);
+        },
+        beforeUnmount() {
+            clearInterval(this.intervalId);
         }
     }
 </script>
