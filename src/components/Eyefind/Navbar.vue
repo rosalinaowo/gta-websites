@@ -5,8 +5,20 @@
         components: { Weather },
         methods: {
             async randomRedirect() {
-                this.$router.push({ name: (await categories.getRandomWebsite()).name });
+                window.location.href = (await categories.getRandomWebsite()).name;
+            },
+            search(query) {
+                alert(query);
             }
+        },
+        mounted() {
+            const searchInput = document.getElementById('searchInput');
+            searchInput.addEventListener('keydown', event => {
+                if (event.key === 'Enter') {
+                    this.search(searchInput.value);
+                    event.preventDefault();
+                }
+            })
         }
     }
 </script>
@@ -28,7 +40,7 @@
                 <div class="col-9">
                     <form class="input-group d-flex" role="search">
                         <i class="input-group-text bi bi-search" id="addon-wrapping" style="color: var(--bg-blue);"></i>
-                        <input class="form-control me-2" type="search" placeholder="Search Eyefind" aria-label="Search Eyefind">
+                        <input id="searchInput" class="form-control me-2" type="search" placeholder="Search Eyefind" aria-label="Search Eyefind">
                     </form>
                 </div>
                 <div class="col">

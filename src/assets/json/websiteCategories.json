@@ -4,7 +4,7 @@
     "websites": [
       {
         "id": 1,
-        "name": "Life Invader",
+        "name": "Lifeinvader",
         "description": "The reason the world never gets anything done any more."
       },
       {
@@ -54,6 +54,11 @@
       },
       {
         "id": 3,
+        "name": "Taco Bomb",
+        "description": "Taco Bomb is Mexican food done right, the American way. One set of four basic ingredients offered in a hundred different formats, smothered in cheese."
+      },
+      {
+        "id": 4,
         "name": "Grain of Truth",
         "description": "Your grocery store defines what kind of person you are. Join the organic elite at The Grain of Truth and shop with superiority. Food has never been this self-satisfying."
       }
@@ -69,7 +74,7 @@
       },
       {
         "id": 2,
-        "name": "Maze Bank Foreclosure",
+        "name": "Maze Bank Foreclosures",
         "description": "The Number 1 site for foreclosed properties."
       },
       {

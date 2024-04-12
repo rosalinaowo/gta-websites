@@ -6,10 +6,10 @@
 </script>
 
 <template>
-    <header class="mb-4">
+    <header>
         <Navbar />
     </header>
-    <main>
+    <main class="pt-4">
         <router-view :key="$route.path" />
     </main>
 </template>

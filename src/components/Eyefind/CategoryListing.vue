@@ -17,7 +17,7 @@
     <div class="container">
         <router-link class="row" v-for="website in websites" :key="website.id" :to="{ name: website.name }">
             <div class="col-4 col-lg-3 col-xl-2">
-                <img class="img-fluid" src="/src/assets/images/websites/MazeBankForeclosure.png">
+                <img class="img-fluid" :src="'/src/assets/images/websites/' + website.name + '/logo.jpg'" :alt="website.name + ' logo'">
             </div>
             <div class="col">
                 {{ website.name }}<br>
@@ -35,7 +35,6 @@
     img {
         margin-top: 2px;
         margin-bottom: 2px;
-        background-color: aquamarine;
     }
 
     .row {

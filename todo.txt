@@ -1,0 +1,3 @@
+- redirect websites with json key, possibly subdomains
+- implement basic search function
+- do all other websites

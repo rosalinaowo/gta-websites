@@ -6,22 +6,22 @@
     <div id="ads" class="container">
         <div class="row d-flex justify-content-between align-items-center text-center">
             <div class="col d-block">
-                <router-link :to="{ name: 'Legendary Motorsport' }">
+                <a href="#">
                     <div>SPONSORED ADVERTISEMENT</div>
-                    <img src="/src/assets/images/websites/LegendaryMotorsport.png" class="img-fluid" alt="Advertisement">
-                </router-link>
+                    <img src="/src/assets/images/websites/Legendary Motorsport/logo.jpg" class="img-fluid" alt="Advertisement">
+                </a>
             </div>
             <div class="col d-block">
-                <router-link :to="{ name: 'Maze Bank' }">
+                <a href="#">
                     <div>SPONSORED ADVERTISEMENT</div>
-                    <img src="/src/assets/images/websites/LegendaryMotorsport.png" class="img-fluid" alt="Advertisement">
-                </router-link>
+                    <img src="/src/assets/images/websites/Maze Bank Foreclosures/logo.jpg" class="img-fluid" alt="Advertisement">
+                </a>
             </div>
             <div class="col d-block">
-                <router-link :to="{ name: 'The Diamond Casino & Resort' }">
+                <a href="#">
                     <div>SPONSORED ADVERTISEMENT</div>
                     <img src="/src/assets/images/websites/LegendaryMotorsport.png" class="img-fluid" alt="Advertisement">
-                </router-link>
+                </a>
             </div>
         </div>
     </div>
@@ -41,5 +41,10 @@
     }
     #ads a div {
         margin-top: 5px;
+    }
+
+    #ads img {
+        margin-top: 5px;
+        margin-bottom: 10px;
     }
 </style>
