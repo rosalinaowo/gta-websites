@@ -15,7 +15,7 @@
 
 <template>
     <div class="container">
-        <router-link class="row" v-for="website in websites" :key="website.id" :to="{ name: website.name }">
+        <a class="row" v-for="website in websites" :key="website.id" :href="website.name">
             <div class="col-4 col-lg-3 col-xl-2">
                 <img class="img-fluid" :src="'/src/assets/images/websites/' + website.name + '/logo.jpg'" :alt="website.name + ' logo'">
             </div>
@@ -23,7 +23,7 @@
                 {{ website.name }}<br>
                 <span class="description">{{ website.description }}</span>
             </div>
-        </router-link>
+        </a>
     </div>
 </template>
 

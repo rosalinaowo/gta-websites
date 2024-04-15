@@ -89,13 +89,28 @@
       },
       {
         "id": 5,
+        "name": "LCN Exchange",
+        "description": "The Liberty City exchange index."
+      },
+      {
+        "id": 6,
         "name": "Dynasty 8 Real Estate",
         "description": "The leading realtor in Los Santos and Blaine County."
       },
       {
-        "id": 6,
+        "id": 7,
         "name": "Maze Bank",
         "description": "Invest in the red. It's in your interest."
+      },
+      {
+        "id": 8,
+        "name": "Fleeca Bank",
+        "description": "We can help you with your money."
+      },
+      {
+        "id": 9,
+        "name": "The Bank of Liberty",
+        "description": "The bank of Liberty City."
       }
     ]
   },
@@ -374,46 +389,41 @@
       },
       {
         "id": 39,
-        "name": "Taco Bomb",
-        "description": ""
-      },
-      {
-        "id": 40,
         "name": "Manopause Adventures",
         "description": ""
       },
       {
-        "id": 41,
+        "id": 40,
         "name": "Monetary Science",
         "description": ""
       },
       {
-        "id": 42,
+        "id": 41,
         "name": "The Altruists",
         "description": ""
       },
       {
-        "id": 43,
+        "id": 42,
         "name": "Your Dead Family",
         "description": ""
       },
       {
-        "id": 44,
+        "id": 43,
         "name": "Be Devin Weston",
         "description": ""
       },
       {
-        "id": 45,
+        "id": 44,
         "name": "Bullshark Testosterone",
         "description": ""
       },
       {
-        "id": 46,
+        "id": 45,
         "name": "Toilet Cleaner",
         "description": ""
       },
       {
-        "id": 47,
+        "id": 46,
         "name": "Ammunation",
         "description": ""
       }
